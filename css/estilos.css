@@ -1,0 +1,83 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+canvas{
+    background-color:bisque;
+    border: 2px solid #0d0d0e;
+}
+
+#introduzca{
+    text-align: center;
+}
+
+.input{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input input{
+    margin-right: 10px;
+    width: 10%;
+    padding: 10px;
+    border: 2px solid rgb(2, 64, 146);
+    border-radius: 20px;
+
+}
+
+.input button{
+    border-radius: 20px;
+    border: 2px solid rgb(2, 64, 146);
+}
+
+.canvas{
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+.poutput{
+    border: 2px solid rgb(11, 2, 129);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+}
+
+.palabraNueva label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.palabraNueva input{
+    width: 30%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(5, 7, 119);
+}
+
+.palabraNueva button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(5, 7, 119);
+}
+
+button:hover{
+    background: #afcbeb;
+    cursor: pointer;
+}

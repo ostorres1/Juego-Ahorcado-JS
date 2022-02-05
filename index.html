@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Juego del Ahorcado</title>
+</head>
+<body>
+    <h1>Juego del Ahorcado con Javascript</h1>
+    <p id="introduzca">Introduzca una letra por favor</p>
+    <div class="input">
+        <input type="text" name="" id="letra" maxlength="1" onkeyup="mayus(this)" >
+        <button id="calcular" >Evaluar letra</button>
+    </div>    
+    <div class="poutput">
+        <p id="output"></p>
+    </div>
+    <p class="letrasUsadas"></p>
+    <div class="canvas">
+        <canvas width="1000" height="500" ></canvas>
+    </div> 
+    <div class="palabraNueva">
+        <label for="nuevaPalabra">Ingresar nueva palabra al Juego:</label>
+        <input type="text" placeholder="Nueva palabra" name="" id="nuevaPalabra" onkeyup="mayus(this)">
+        <button id="palabraNueva" >Ingresar</button>
+    </div>
+
+    <script src= "js/ahorcado.js" ></script>
+    <script src="js/canvas.js" ></script>
+</body>
+</html>
